@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap');
 
-:root {
+/* :root {
 	--color-primary: #55EFC4;
 	--color-secondary: #000;
 	--color-tertiary: #fff;
 	--color-text: #dfe6e9;
 	--color-border: #0F0F0F;
 	--layout-spacing: 3rem;
-}
+} */
 
-/* :root {
+ :root {
     --color-primary: #00b894;
     --color-secondary: #fff;
     --color-tertiary: #000;
     --color-text: #636e72;
     --color-border: #f7f7f7;
     --layout-spacing: 3rem;
-} */
+}
 
 * {
     padding: 0;
@@ -120,7 +120,7 @@ img {
     text-align: center;
     flex: 1;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 0 1rem;
     padding: 0.5rem 1rem;
     border-radius: 50px;
