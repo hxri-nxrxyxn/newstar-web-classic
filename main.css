@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap');
 
+:root {
+	--color-primary: #ffefda;
+	--color-secondary: #00aeef;
+	--color-tertiary: #fff;
+	--color-text: #dfe6e9;
+	--color-border: #009CD7;;
+	--layout-spacing: 3rem;
+}
+
 /* :root {
 	--color-primary: #55EFC4;
 	--color-secondary: #000;
@@ -9,14 +18,14 @@
 	--layout-spacing: 3rem;
 } */
 
- :root {
+ /* :root {
     --color-primary: #00b894;
     --color-secondary: #fff;
     --color-tertiary: #000;
     --color-text: #636e72;
     --color-border: #f7f7f7;
     --layout-spacing: 3rem;
-}
+} */
 
 * {
     padding: 0;
@@ -78,7 +87,7 @@ img {
 
 .navbox__top--logo img {
     width: 10rem;
-    padding-top: 1rem;
+    padding-top: 5rem;
 }
 
 .navbox__top {
@@ -197,9 +206,6 @@ form input, form textarea {
 
 form input:hover, form textarea:hover {
     background-color: var(--color-border);
-}
-
-form input:focus, form textarea:focus {
     border: 2px solid var(--color-primary);
 }
 
@@ -226,6 +232,11 @@ form button {
 
 .gallery__column p {
     margin: 2rem;
+}
+
+.gallery__column img {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 @media screen and (min-width: 800px) {
